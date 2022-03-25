@@ -1,5 +1,6 @@
 package android;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DemoTest {
@@ -18,6 +19,7 @@ public class DemoTest {
 	@Test
 	public void demoTest3() {
 		System.out.println("DemoTest 3");
+		Assert.fail("Failed the test");
 	}
 	
 	
