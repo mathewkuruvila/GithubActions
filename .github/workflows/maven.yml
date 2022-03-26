@@ -25,15 +25,15 @@ jobs:
     - name: Build with Maven
       run: mvn test
       
-    - name: Publish Test Report
+    - name: Test Report scacap
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1
     
-    - name: Test Report
+    - name: Test Report dorny
       uses: dorny/test-reporter@v1
       if: success() || failure()    # run this step even if previous step failed
       with:
-        name: TestNg Tests            # Name of the check run which will be created
+        name: TestNg Test Result            # Name of the check run which will be created
         path: target/surefire-reports/junitreports/*.xml    # Path to test results
         reporter: java-junit        # Format of test results
       
