@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed the test",
+      "children" : [ {
+        "name" : "loginDemoTest3",
+        "uid" : "8249a1123f3a652d",
+        "parentUid" : "2e18ad72c2339b1821d196ebe2611580",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648267340218,
+          "stop" : 1648267340222,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest1",
+        "uid" : "eff00684f61c8327",
+        "parentUid" : "2e18ad72c2339b1821d196ebe2611580",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648267340233,
+          "stop" : 1648267340234,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest3",
+        "uid" : "765382bbd95c4bef",
+        "parentUid" : "2e18ad72c2339b1821d196ebe2611580",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648267340250,
+          "stop" : 1648267340251,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e18ad72c2339b1821d196ebe2611580"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

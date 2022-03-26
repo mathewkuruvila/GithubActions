@@ -1,9 +1,0 @@
-[ {
-  "buildOrder" : 17,
-  "reportUrl" : "https://mathewkuruvila.github.io/GithubActions/17/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 8,
-    "retry" : 0
-  }
-} ]
