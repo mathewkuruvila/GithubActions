@@ -3,9 +3,12 @@ package login;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
+
 public class LoginTest {
 
 	@Test
+	@Description("Test Description: Login test with wrong username and wrong password. loginDemoTest1")
 	public void loginDemoTest1() {
 		System.out.println("loginDemoTest1");
 	}
