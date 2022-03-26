@@ -71,4 +71,4 @@ jobs:
         context: 'Test report'
         state: 'success'
         sha: ${{ github.event.pull_request.head.sha }}
-        target_url: github.com/mathewkuruvila/GithubActions/${{ github.run_number }}
+        target_url: mathewkuruvila.github.io/GithubActions/${{ github.run_number }}
