@@ -26,13 +26,13 @@ public class DemoTest {
 	@Step("This is the login step")
 	public void login() {
 		System.out.println("Login");
-		Assert.fail("Failed the test");
+//		Assert.fail("Failed the test");
 	}
 	
 	@Step("This is another login step")
 	public void loginAnother() {
 		System.out.println("Login");
-		Assert.fail("Failed the test");
+//		Assert.fail("Failed the test");
 	}
 	
 	@Test
