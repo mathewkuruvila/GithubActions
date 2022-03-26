@@ -1,0 +1,62 @@
+{
+  "uid" : "da71e7a3c4052479",
+  "name" : "loginDemoTest4",
+  "fullName" : "login.LoginTest.loginDemoTest4",
+  "historyId" : "a154b273f542c8d1fd9ac20af45327a6",
+  "time" : {
+    "start" : 1648265053515,
+    "stop" : 1648265053515,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginDemoTest4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az290-435"
+  }, {
+    "name" : "thread",
+    "value" : "2181@fv-az290-435.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da71e7a3c4052479.json",
+  "parameterValues" : [ ]
+}
